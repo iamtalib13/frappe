@@ -1,0 +1,112 @@
+{
+ "cards": [
+  {
+   "card": "My Assigned Tickets-2"
+  },
+  {
+   "card": "Chandrapur Pending Tickets"
+  },
+  {
+   "card": "Bhadravati Pending Tickets"
+  },
+  {
+   "card": "Ballarpur Pending Tickets"
+  },
+  {
+   "card": "Rajura Pending Tickets"
+  },
+  {
+   "card": "Gondpipri Pending Tickets"
+  },
+  {
+   "card": "Mul Pending Tickets"
+  },
+  {
+   "card": "Sindewahi Pending Tickets"
+  },
+  {
+   "card": "Nagbhid Pending Tickets"
+  },
+  {
+   "card": "Bramhapuri Pending Tickets"
+  },
+  {
+   "card": "Wardha Pending Tickets"
+  },
+  {
+   "card": "Samudrapur Pending Tickets"
+  },
+  {
+   "card": "Seloo Pending Tickets"
+  },
+  {
+   "card": "Karanja-Ghadge Pending Tickets"
+  },
+  {
+   "card": "Deoli Pending Tickets"
+  },
+  {
+   "card": "Yavatmal Pending Tickets"
+  },
+  {
+   "card": "Wani Pending Tickets"
+  },
+  {
+   "card": "Pandharkawada Pending Tickets"
+  },
+  {
+   "card": "Kalamb Pending Tickets"
+  },
+  {
+   "card": "Ralegaon Pending Tickets"
+  },
+  {
+   "card": "Darwha Pending Tickets"
+  },
+  {
+   "card": "Umerkhed Pending Tickets"
+  },
+  {
+   "card": "Digras Pending Tickets"
+  },
+  {
+   "card": "Pusad Pending Tickets"
+  },
+  {
+   "card": "Mahagaon Pending Tickets"
+  },
+  {
+   "card": "Ashti Pending Tickets"
+  },
+  {
+   "card": "Sawali Pending Tickets"
+  },
+  {
+   "card": "Ner Pending Tickets"
+  },
+  {
+   "card": "Ghatanji Pending Tickets"
+  },
+  {
+   "card": "Arvi Pending Tickets"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "IT Department Chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-12-21 10:37:52.702203",
+ "dashboard_name": "Chandrapur District Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-02-17 15:48:24.101928",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Chandrapur District Dashboard",
+ "owner": "Administrator"
+}

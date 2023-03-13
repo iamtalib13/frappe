@@ -1,0 +1,31 @@
+{
+ "cards": [
+  {
+   "card": "ABPS Hiwara Pending Tickets"
+  },
+  {
+   "card": "MCP Goregaon Pending Tickets"
+  },
+  {
+   "card": "Closed Tickets-9"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "School Chart",
+   "width": "Full"
+  }
+ ],
+ "creation": "2023-02-24 10:47:55.969161",
+ "dashboard_name": "School Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-02-24 11:11:06.543459",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "School Dashboard",
+ "owner": "Administrator"
+}
