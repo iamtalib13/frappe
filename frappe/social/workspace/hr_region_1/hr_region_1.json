@@ -1,0 +1,78 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To Region 1</b></span>\",\"col\":12}},{\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Ticket Details of Region 1</b></span><span class=\\\"h2\\\"></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Read\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"In-Progress\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Closed\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"On-Hold Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ticket Cancelled by Branch\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2022-12-22 17:25:28.133913",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "map",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HR Region 1",
+ "links": [],
+ "modified": "2023-06-20 15:17:18.641487",
+ "modified_by": "Administrator",
+ "module": "Social",
+ "name": "HR Region 1",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 11.0,
+ "shortcuts": [
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Read",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 1\"],\"status\":[\"=\",\"Read\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{} New",
+   "label": "Open",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 1\"],\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Ticket Cancelled by Branch",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 1\"],\"status\":[\"=\",\"Cancelled\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "On-Hold Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 1\"],\"dept_name\":[\"=\",\"HR\"],\"status\":[\"=\",\"On-Hold\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "In-Progress",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 1\"],\"status\":[\"=\",\"In-Progress\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Closed",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 1\"],\"dept_name\":[\"=\",\"HR\"],\"status\":[\"=\",\"Closed\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "HR Region 1"
+}

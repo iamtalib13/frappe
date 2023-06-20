@@ -1,0 +1,43 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"KRc-nt-Ejf\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Survey</b></span>\",\"col\":12}},{\"id\":\"1OUWbiZYWS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Survey\",\"col\":3}},{\"id\":\"xwAOGkwNBo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"List\",\"col\":3}}]",
+ "creation": "2023-06-03 14:52:03.817379",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "number-card",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Survey",
+ "links": [],
+ "modified": "2023-06-20 15:17:19.998848",
+ "modified_by": "Administrator",
+ "module": "Custom",
+ "name": "Survey",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Survey",
+   "link_to": "Sahayog Survey",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "List",
+   "link_to": "Sahayog Survey",
+   "type": "DocType"
+  }
+ ],
+ "title": "Survey"
+}

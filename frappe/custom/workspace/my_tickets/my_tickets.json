@@ -1,0 +1,90 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"L3j2jnyLM5\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\" style=\\\"\\\"><b>             Welcome to Sahayog Ticketing System</b></span>\",\"col\":12}},{\"id\":\"tlpd4FIk_P\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Ticket\",\"col\":3}},{\"id\":\"kotlPTANUU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Branch Tickets Status</b></span>\",\"col\":12}},{\"id\":\"b8iKnDSKUm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open Tickets\",\"col\":3}},{\"id\":\"B5h61HE_lY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Read Tickets\",\"col\":3}},{\"id\":\"H7ozn9l_ZX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"In-Progress Tickets\",\"col\":3}},{\"id\":\"rSrjYhgI7v\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Closed Tickets\",\"col\":3}},{\"id\":\"pyE81Ljto4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"On-Hold Tickets\",\"col\":3}},{\"id\":\"6nD7hlVKRe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My Cancelled Tickets\",\"col\":3}},{\"id\":\"HJIk7ezoUx\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Tickets\",\"col\":12}}]",
+ "creation": "2022-12-23 15:10:17.021613",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "My Tickets",
+ "links": [],
+ "modified": "2023-06-20 15:17:18.178238",
+ "modified_by": "Administrator",
+ "module": "Custom",
+ "name": "My Tickets",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Sahayog Ticket",
+   "label": "Recent Tickets",
+   "quick_list_filter": "{\"status\":[\"not in\",[\"New\"]]}"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "My Cancelled Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"status\":[\"=\",\"Cancelled\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Open Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Ticket",
+   "link_to": "Sahayog Ticket",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "On-Hold Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"status\":[\"=\",\"On-Hold\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Read Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"status\":[\"=\",\"Read\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "In-Progress Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"status\":[\"=\",\"In-Progress\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Closed Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"status\":[\"=\",\"Closed\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "My Tickets"
+}

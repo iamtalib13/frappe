@@ -1,0 +1,71 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To IT Department</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Executives Pending Work</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gondia Executive\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bhandara Executive\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nagpur Executive\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Chandrapur Executive\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gadhchiroli Executive\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"School\",\"col\":3}}]",
+ "creation": "2022-12-22 14:13:19.148126",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "IT Executives",
+ "links": [],
+ "modified": "2023-06-20 15:17:18.442772",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "IT Executives",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 8.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bhandara Executive",
+   "link_to": "Bhandara District Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gondia Executive",
+   "link_to": "Gondia District Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "School",
+   "link_to": "School Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Nagpur Executive",
+   "link_to": "Nagpur District Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Chandrapur Executive",
+   "link_to": "Chandrapur District Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gadhchiroli Executive",
+   "link_to": "Gadchiroli Dashboard",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "IT Executives"
+}

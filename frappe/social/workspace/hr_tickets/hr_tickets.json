@@ -1,0 +1,249 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To HR Department</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Region 1 Dashboard\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Region 2 Dashboard\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Region 3 Dashboard\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Region 4 Dashboard\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Region 1</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R1 Attendance\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R1 Salary\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R1 Medical Card\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R1 PF\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R1 Others\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R1 Full-n-Final Settlement\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Region 2</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R2 Attendance \",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R2 Salary\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R2 Medical Card\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R2 PF\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R2 Others\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R2 Full-n-Final Settlement\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Region 3</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R3 Attendance\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R3 Salary\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R3 Medical Card\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R3 PF\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R3 Others\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R3 Full-n-Final Settlement\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Region 4</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R4 Attendance\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R4 Salary\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R4 Medical Card\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R4 PF\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R4 Others\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"R4 Full-n-Final Settlement\",\"col\":3}}]",
+ "creation": "2022-12-21 14:11:14.223640",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HR Tickets",
+ "links": [],
+ "modified": "2023-06-20 15:17:18.470332",
+ "modified_by": "Administrator",
+ "module": "Social",
+ "name": "HR Tickets",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 9.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "R2 Attendance ",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"ticket_type_hr\":[\"=\",\"Attendance\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"region\":[\"=\",\"Region 2\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Region 1 Dashboard",
+   "link_to": "Region 1 Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Region 2 Dashboard",
+   "link_to": "Region 2 Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "R1 Attendance",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 1\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Attendance\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Region 3 Dashboard",
+   "link_to": "Region 3 Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "R3 Attendance",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 3\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Attendance\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "R2 Salary",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 2%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Salary\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "R3 Salary",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 3%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Salary\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "R1 Salary",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 1%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Salary\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Region 4 Dashboard",
+   "link_to": "Region 4 Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "R1 Medical Card",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 1%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Medical Card\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "R2 Medical Card",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 2%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Medical Card\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "R3 Medical Card",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 3%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Medical Card\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "R1 PF",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 1%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"PF\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "R2 PF",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 2%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"PF\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "R3 PF",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 3%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"PF\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "R2 Others",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 2%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Others\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "R3 Others",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 3%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Others\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "R1 Others",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 1%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Others\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "R2 Full-n-Final Settlement",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 2%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Full-n-Final Settlement\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "R3 Full-n-Final Settlement",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 3%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Full-n-Final Settlement\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "R1 Full-n-Final Settlement",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"like\",\"%Region 1%\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Full-n-Final Settlement\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "R4 Attendance",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 4\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Attendance\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "R4 Salary",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 4\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Salary\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "R4 Medical Card",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 4\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Medical Card\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "R4 PF",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 4\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"PF\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "R4 Others",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 4\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Others\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "R4 Full-n-Final Settlement",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 4\"],\"status\":[\"not in\",[\"Closed\",\"Cancelled\"]],\"ticket_type_hr\":[\"=\",\"Full-n-Final Settlement\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "HR Tickets"
+}

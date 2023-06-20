@@ -1,0 +1,77 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To Region 3</b></span>\",\"col\":12}},{\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Ticket Details of Region 3</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Read\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"In-progress\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Closed\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"On-Hold Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ticket Cancelled by Branch\",\"col\":4}}]",
+ "creation": "2022-12-22 17:29:57.656718",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "map",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HR Region 3",
+ "links": [],
+ "modified": "2023-06-20 15:17:19.530944",
+ "modified_by": "Administrator",
+ "module": "Social",
+ "name": "HR Region 3",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 25.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Open",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 3\"],\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "On-Hold Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"region\":[\"=\",\"Region 3\"],\"dept_name\":[\"=\",\"HR\"],\"status\":[\"=\",\"On-Hold\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Ticket Cancelled by Branch",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 3\"],\"status\":[\"=\",\"Cancelled\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Read",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 3\"],\"status\":[\"=\",\"Read\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "In-progress",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 3\"],\"status\":[\"=\",\"In-Progress\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Closed",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"HR\"],\"region\":[\"=\",\"Region 3\"],\"status\":[\"=\",\"Closed\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "HR Region 3"
+}

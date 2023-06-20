@@ -1,0 +1,83 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To JLL Department</b></span>\",\"col\":12}},{\"type\":\"paragraph\",\"data\":{\"text\":\"<b>Ticket Details of JLL Department</b>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open Ticket\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Read Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"In-Progress\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Closed Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"On-Hold Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ticket Cancelled by Branch\",\"col\":4}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"JLL Recent Tickets\",\"col\":12}}]",
+ "creation": "2022-12-24 10:42:19.449083",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "expenses",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "JLL Tickets",
+ "links": [],
+ "modified": "2023-06-20 15:17:19.934365",
+ "modified_by": "Administrator",
+ "module": "Contacts",
+ "name": "JLL Tickets",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Sahayog Ticket",
+   "label": "JLL Recent Tickets",
+   "quick_list_filter": "{\"dept_name\":[\"=\",\"JLL\"]}"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 37.0,
+ "shortcuts": [
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Read Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"JLL\"],\"status\":[\"=\",\"Read\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "On-Hold Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"JLL\"],\"status\":[\"=\",\"On-Hold\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Ticket Cancelled by Branch",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"JLL\"],\"status\":[\"=\",\"Cancelled\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Open Ticket",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"JLL\"],\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "In-Progress",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"JLL\"],\"status\":[\"=\",\"In-Progress\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Closed Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"JLL\"],\"status\":[\"=\",\"Closed\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "JLL Tickets"
+}
